@@ -1,0 +1,93 @@
+
+.header__nav {
+	text-align: right;
+	position: relative;
+
+}
+.header__list {
+	display: none;
+	@media screen and (min-width:768px) {
+		display: flex;
+		justify-content: space-around;
+		text-transform: uppercase;
+		font-size: 12px;
+		padding: 40px;
+		& :hover,
+		& :focus {
+			color:#57A4A4;
+			font-weight: $font-weight;
+		}
+	}
+}
+.header__button {
+	margin-right: 0px;
+	background: #000;
+	margin-bottom: 23px;
+	@media screen and (min-width:768px) {
+		display: none;
+	}
+}
+
+
+.header_img {
+	display: block;
+	text-align: center;
+	margin: 0;
+
+}
+.burger__list {
+	text-align: left;
+	width: 182px;
+	font-size: 16px;
+	font-weight: $font-weight;
+	// margin-right: -1px;
+	// height: 208px;
+	background: #F5F5F5;
+	font-weight: 400;
+	text-transform: uppercase;
+	position: absolute;
+	right:0;
+	top: 37px;
+	line-height: 28px;
+	color: #4E4E4E;
+	letter-spacing: 1.1px;
+	display: none;
+	@media screen and (min-width: 768px) {
+		display: none;
+	}
+}
+.burger__list-active {
+	display: block;
+}
+.burger__item {
+	margin-left: 13px;
+}
+
+.burger__link {
+	color: $color-text;
+	// color: red;
+	&:hover,
+	&:focus {
+		color: #57A4A4;
+	}
+
+	
+}
+.bg {
+	margin-bottom: 38px;
+	background-image: url('/src/img/header/intro-img1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 320px;
+	height: 150px;
+	@media  screen and (min-width:768px) {
+		background-image: url('/src/img/header/intro-tab1.jpg');
+		width: 768px;
+		height: 361px;
+	}
+	@media  screen and (min-width:1200px) {
+		background-image: url('/src/img/header/intro-desktop.png');
+		width: 1170px;
+		height: 550px;
+	}
+}

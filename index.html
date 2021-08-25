@@ -6,10 +6,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./dist/style/styles.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 	<title>Document</title>
 </head>
 <body>
-	<header class="header">
+	<header class="header container">
 		<nav class="header__nav">
 			<ul class="header__list">
 				<li class="header__item"><a class="header__link" href="">Home</a></li>
@@ -20,7 +21,7 @@
 				<li class="header__item"><a class="header__link" href="">features</a></li>
 				<li class="header__item"><a class="header__link" href="">contact</a></li>
 			</ul>
-			<a class="header__button" href=""><img src="./src/img/header/menu-button.png" alt=""></a>
+			<a class="header__link-buton" href=""><img class="header__button" src="./src/img/header/menu-button.png" alt=""></a>
 			<ul class="burger__list">
 				<li class="burger__item"><a class="burger__link" href="">Home</a></li>
 				<li class="burger__item"><a class="burger__link" href="">about us</a></li>
@@ -31,62 +32,72 @@
 				<li class="burger__item"><a class="burger__link" href="">contact</a></li>
 			</ul>
 		</nav>
-		<div>
-			<picture>
-				<source srcset="./src/img/header/intro-mobil.png" media="(max-width: 320px">
-				<source srcset="./src/img/header/intro-tab.png" media="(max-width: 768px">
-				<img src="./src/img/header/intro-desktop.png" alt="picture">
-			</picture>
+		<div class="bg">
 		</div>
 	</header>
 	<section class="section">
+		<div class="container">
 		<h1 class="section__title">- our Recent posts</h1>
 		<ul class="section__list">
 			<li class="section__item">
-				<a href="" class="section__link"><img src="./src/img/section/post1.png" alt="picture"></a>
-				<h2>Aenean Adipiscing Etiam Vestibulum</h2>
-				<span>Photography, Journal</span>
-				<span>9 Comments</span>
-				<p>Etiam porta sem malesuada euismod. Aenean leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+				<a href="" class="section__link"><img class="section__img" src="./src/img/section/post1.png" alt="picture"></a>
+				<div class="section__text__wrap"> 
+					<h2 class="section__text">Aenean Adipiscing Etiam Vestibulum</h2>
+					<span class="section__text_subtitle section__text-">Photography, Journal / </span>
+					<span class="section__text_comments section__text-">9 Comments</span>
+					<p class="section__desc">Etiam porta sem malesuada euismod. Aenean leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+				</div>
 			</li>
 			<li class="section__item">
-				<a href="" class="section__link"><img src="./src/img/section/post2.png" alt="picture"></a>
-				<h2>Aenean Adipiscing Etiam Vestibulum</h2>
-				<span>Photography, Journal</span>
-				<span>9 Comments</span>
-				<p>Etiam porta sem malesuada euismod. Aenean leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+				<a href="" class="section__link"><img class="section__img" src="./src/img/section/post2.png" alt="picture"></a>
+				<div class="section__text__wrap"> 
+					<h2 class="section__text">Aenean Adipiscing Etiam Vestibulum</h2>
+					<span class="section__text_subtitle section__text-">Photography, Journal / </span>
+					<span class="section__text_comments section__text-">9 Comments</span>
+					<p class="section__desc">Etiam porta sem malesuada euismod. Aenean leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+				</div>
 			</li>
 			<li class="section__item">
-				<a href="" class="section__link"><img src="./src/img/section/post3.png" alt="picture"></a>
-				<h2>Aenean Adipiscing Etiam Vestibulum</h2>
-				<span>Photography, Journal</span>
-				<span>9 Comments</span>
-				<p>Etiam porta sem malesuada euismod. Aenean leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+				<a href="" class="section__link"><img class="section__img" src="./src/img/section/post3.png" alt="picture"></a>
+				<div class="section__text__wrap"> 
+					<h2 class="section__text">Aenean Adipiscing Etiam Vestibulum</h2>
+					<span class="section__text_subtitle section__text-">Photography, Journal / </span>
+					<span class="section__text_comments section__text-">9 Comments</span>
+					<p class="section__desc">Etiam porta sem malesuada euismod. Aenean leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+				</div>
 			</li>
 			<li class="section__item">
-				<a href="" class="section__link"><img src="./src/img/section/post4.png" alt="picture"></a>
-				<h2>Aenean Adipiscing Etiam Vestibulum</h2>
-				<span>Photography, Journal</span>
-				<span>9 Comments</span>
-				<p>Etiam porta sem malesuada euismod. Aenean leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+				<a href="" class="section__link"><img class="section__img" src="./src/img/section/post4.png" alt="picture"></a>
+				<div class="section__text__wrap"> 
+					<h2 class="section__text">Aenean Adipiscing Etiam Vestibulum</h2>
+					<span class="section__text_subtitle section__text-">Photography, Journal / </span>
+					<span class="section__text_comments section__text-">9 Comments</span>
+					<p class="section__desc">Etiam porta sem malesuada euismod. Aenean leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+				</div>
 			</li>
+						
 		</ul>
+	</div>
 	</section>
-	<footer class="footer">
-		<div class="footer__flex">
-			<h2 class="footer__title"></h2>
-			<p class="footer__text"></p>
+	<footer class="footer ">
+		<div class="footer__flex container">
+			<h2 class="footer__title">- get in touch with us -</h2>
+			<p class="footer__text footer__text-text">Maecenas faucibus
+				molli interdum. Cras mattis consectetur purus sitor amet sed donec malesuada ullamcorper odio.
+				Copy
+				</p>
+				<p class="footer__text-tabl footer__text-text">Curabitur blandit tempus porttitor vollisky inceptos mollisestor.</p>
 			<div class="footer__icon">
-				<img src="./src/img/footer/RSS.png" width="34" height="34" alt="RSS">
-				<img src="./src/img/footer/Facebook.png" width="34" height="34" alt="Facebook">
-				<img src="./src/img/footer/Twitter.png" width="34" height="34" alt="Twitter">
-				<img src="./src/img/footer/Dribbble.png" width="34" height="34" alt="Dribbble">
-				<img src="./src/img/footer/Pinterest.png" width="34" height="34" alt="Pinterest">
+				<a href=""><img src="./src/img/footer/RSS.png" width="34" height="34" alt="RSS"></a>
+				<a href=""></a><img src="./src/img/footer/Facebook.png" width="34" height="34" alt="Facebook"></a>
+				<a href=""></a><img src="./src/img/footer/Twitter.png" width="34" height="34" alt="Twitter"></a>
+				<a href=""></a><img src="./src/img/footer/Dribbble.png" width="34" height="34" alt="Dribbble"></a>
+				<a href=""></a><img src="./src/img/footer/Pinterest.png" width="34" height="34" alt="Pinterest"></a>
 			</div>
 			<address class="footer__contacts">
-				<p class="footer__address">Moonshine St. 14-05 Light City /</p>
-				<a href="#">T. +00 (123) 456 78 90 /</a>
-				<a href="">first.last@email.com</a>
+				<a class="footer__address footer__text-text">Moonshine St. 14-05 Light City /</a> 
+				<a class="footer__tel footer__text-text" href="#">T. +00 (123) 456 78 90 /</a> <br>
+				<a class="footer__mail footer__text-text" href="">first.last@email.com</a>
 			</address>
 
 		</div>
