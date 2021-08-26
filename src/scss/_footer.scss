@@ -24,8 +24,10 @@
 .footer__text {
 	font-size: 12px;
 	margin-bottom: 26px;
+	
 	@media screen and (min-width:768px){
 		margin-bottom: 0;
+		margin-right: 10px;
 		
 	}
 }
@@ -47,14 +49,18 @@
 }
 
 .footer__contacts {
-	
-	
+text-align: center;
+
+
 }
-.footer__address {
-	text-align: center;
-	display: block;
+.footer__flex-{
+	@media screen and (min-width: 768px) {
+	display: flex;
+	justify-content: center;
+	}
 }
-.footer__tel {
-}
-.footer__mail {
+.footer__flex-item {
+	@media screen and (min-width: 768px) {
+		margin-right: 15px;
+		}
 }
