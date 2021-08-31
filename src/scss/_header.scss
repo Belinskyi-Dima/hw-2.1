@@ -107,7 +107,7 @@
 	}
 }
 .bg {
-	background-image: url('/src/img/header/intro-mobil.png');
+	background-image: url('/dist/img/header/intro-mobil.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	// width: 300px;
@@ -115,12 +115,12 @@
 	margin: 0 auto;
 	margin-bottom: 38px;
 	@media  screen and (min-width:768px) {
-		background-image: url('/src/img/header/intro-tab1.jpg');
+		background-image: url('/dist/img/header/intro-tab1.jpg');
 		min-width: 768px;
 		height: 361px;
 	}
 	@media  screen and (min-width:1200px) {
-		background-image: url('/src/img/header/intro-desktop.png');
+		background-image: url('/dist/img/header/intro-desktop.png');
 		width: 1170px;
 		height: 550px;
 	}
