@@ -41,7 +41,7 @@
 .header__link-buton {
 	position: absolute;
 	top: 23px;
-	right: 0;
+	right: 5px;
 	background-image: url('/src/img/header/menu-button.png');
 	background-color: #000;
 	width: 44px;
@@ -107,15 +107,17 @@
 	}
 }
 .bg {
-	margin-bottom: 38px;
-	background-image: url('/src/img/header/intro-img1.jpg');
+
+	background-image: url('/src/img/header/intro-mobil.png');
 	background-repeat: no-repeat;
 	background-size: cover;
-	width: 320px;
+	// width: 300px;
 	height: 150px;
+	// margin: 0 auto;
+	margin-bottom: 38px;
 	@media  screen and (min-width:768px) {
 		background-image: url('/src/img/header/intro-tab1.jpg');
-		width: 768px;
+		min-width: 768px;
 		height: 361px;
 	}
 	@media  screen and (min-width:1200px) {
