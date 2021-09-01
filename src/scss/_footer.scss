@@ -2,14 +2,20 @@
 	text-align: center;
 	background-color: #000;
 	padding-bottom: 45px;
-	// @media screen and (max-width:1200px) {
-	// 	width: 1200px;
-	// }
+	padding-top: 38px;
+	@media screen and (min-width:480px) {
+		padding-top: 57px;
+	}
+	@media screen and (min-width:993px) {
+		padding-top: 66px;
+	}
 
 }
 .footer__flex {
-	margin: 0 auto;
-	padding-top: 38px;
+	// padding-top: 38px;
+	margin: auto;
+	
+
 
 }
 .footer__title {
@@ -57,6 +63,7 @@ text-align: center;
 	@media screen and (min-width: 768px) {
 	display: flex;
 	justify-content: center;
+	// padding-top: 57px;
 	}
 }
 .footer__flex-item {

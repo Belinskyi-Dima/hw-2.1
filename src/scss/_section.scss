@@ -12,6 +12,12 @@
 }
 .section__list {
 	// text-align: center;
+	@media screen and (min-width:993px) {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+
 }
 .section__item {
 
@@ -26,10 +32,9 @@
 	// width: 555px;
 	@media screen and(min-width: 768px) {
 	display:inline-flex;
-	// width: 555px;
-	
-		
+	width: 555px;
 	}
+
 }
 .section__link {
 	// display: block;
